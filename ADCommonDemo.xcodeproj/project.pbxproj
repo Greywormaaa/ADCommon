@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04758A321EF75AF30037765E /* ADCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04758A311EF75AF30037765E /* ADCellModel.m */; };
+		04758A351EF75B070037765E /* ADTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04758A341EF75B070037765E /* ADTableController.m */; };
+		04758A381EF75CA00037765E /* ADTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04758A371EF75CA00037765E /* ADTableCell.m */; };
+		04758A3B1EF75D3F0037765E /* ADTableHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04758A3A1EF75D3F0037765E /* ADTableHeaderFooterView.m */; };
 		140143691EF52D3E009579C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 140143681EF52D3E009579C0 /* main.m */; };
 		1401436C1EF52D3E009579C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401436B1EF52D3E009579C0 /* AppDelegate.m */; };
 		1401436F1EF52D3E009579C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1401436E1EF52D3E009579C0 /* ViewController.m */; };
@@ -17,6 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04758A301EF75AF30037765E /* ADCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADCellModel.h; sourceTree = "<group>"; };
+		04758A311EF75AF30037765E /* ADCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADCellModel.m; sourceTree = "<group>"; };
+		04758A331EF75B070037765E /* ADTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTableController.h; sourceTree = "<group>"; };
+		04758A341EF75B070037765E /* ADTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTableController.m; sourceTree = "<group>"; };
+		04758A361EF75CA00037765E /* ADTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTableCell.h; sourceTree = "<group>"; };
+		04758A371EF75CA00037765E /* ADTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTableCell.m; sourceTree = "<group>"; };
+		04758A391EF75D3F0037765E /* ADTableHeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTableHeaderFooterView.h; sourceTree = "<group>"; };
+		04758A3A1EF75D3F0037765E /* ADTableHeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTableHeaderFooterView.m; sourceTree = "<group>"; };
 		140143641EF52D3E009579C0 /* ADCommonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADCommonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		140143681EF52D3E009579C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1401436A1EF52D3E009579C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +100,14 @@
 			children = (
 				1401437F1EF52D8F009579C0 /* ADCommon.h */,
 				140143801EF52D8F009579C0 /* ADCommon.m */,
+				04758A301EF75AF30037765E /* ADCellModel.h */,
+				04758A311EF75AF30037765E /* ADCellModel.m */,
+				04758A361EF75CA00037765E /* ADTableCell.h */,
+				04758A371EF75CA00037765E /* ADTableCell.m */,
+				04758A391EF75D3F0037765E /* ADTableHeaderFooterView.h */,
+				04758A3A1EF75D3F0037765E /* ADTableHeaderFooterView.m */,
+				04758A331EF75B070037765E /* ADTableController.h */,
+				04758A341EF75B070037765E /* ADTableController.m */,
 			);
 			path = ADCommon;
 			sourceTree = "<group>";
@@ -167,6 +187,10 @@
 				1401436F1EF52D3E009579C0 /* ViewController.m in Sources */,
 				1401436C1EF52D3E009579C0 /* AppDelegate.m in Sources */,
 				140143691EF52D3E009579C0 /* main.m in Sources */,
+				04758A381EF75CA00037765E /* ADTableCell.m in Sources */,
+				04758A3B1EF75D3F0037765E /* ADTableHeaderFooterView.m in Sources */,
+				04758A351EF75B070037765E /* ADTableController.m in Sources */,
+				04758A321EF75AF30037765E /* ADCellModel.m in Sources */,
 				140143811EF52D8F009579C0 /* ADCommon.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

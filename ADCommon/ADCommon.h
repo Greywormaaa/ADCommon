@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "ADTableController.h"
 @interface ADCommon : NSObject
 
 @end
