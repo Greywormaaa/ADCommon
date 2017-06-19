@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestViewController.h
 //  ADCommonDemo
 //
 //  Created by ma c on 2017/6/19.
@@ -7,7 +7,7 @@
 //
 
 #import "ADTableController.h"
-#import "TestViewController.h"
-@interface ViewController : ADTableController
+
+@interface TestViewController : ADTableController
 
 @end
